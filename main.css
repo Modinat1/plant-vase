@@ -59,3 +59,28 @@ button{
     padding: 5px 20px;
     border: 1px solid #c1bdba;
 }
+
+@media (max-width: 700px){
+    nav{
+        width: 400px;
+        margin-top: 50px;
+        padding: 20px 5px;
+        border-bottom: 2px solid #c1bdba;
+    }
+    .container{
+        flex-direction: column;
+        padding: 20px 5px;
+        text-align: center;
+        width: 400px;
+        max-width: 100%;
+        margin-bottom: 50px;
+    }
+    .col-2{
+        color: #8a8b8c;
+        border-left: none;
+        padding: 20px;
+    }
+    button{
+        padding: 5px 40px;
+    }
+}
