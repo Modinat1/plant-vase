@@ -42,7 +42,6 @@ img{
 }
 .col-1{
     object-fit: cover;
-    overflow: hidden;
 }
 .col-2{
     color: #8a8b8c;
