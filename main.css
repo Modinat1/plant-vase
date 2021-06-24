@@ -4,18 +4,30 @@
 }
 body{
     background-color: #aedaa7;
-    display: grid;
-    place-items: center;
-}
-nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
     background-color: #ffffff;
     width: 600px;
     max-width: 80%;
-    margin-top: 150px;
-    padding: 15px 40px;
-    border-bottom: 2px solid #c1bdba;
+    margin: 0 auto;
+}
+img{
+    width: 300px;
+    height: 300px;
+}
+.column-container{
+    display: flex;
+}
+nav{
+    background-color: #ffffff;
+    border-bottom: 2px solid #8a8b8c;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
 }
 nav i{
     color: #8a8b8c;
@@ -23,25 +35,17 @@ nav i{
 }
 nav p{
     color: #8a8b8c;
-    
 }
 img{
     width: 300px;
     height: 300px;
-}
-.container{
-    background-color: #ffffff;
-    width: 600px;
-    max-width: 80%;
-    display: flex;
-    padding: 0 40px;
 }
 .col-1{
     object-fit: cover;
 }
 .col-2{
     color: #8a8b8c;
-    border-left: 2px solid #c1bdba;
+    border-left: 2px solid #8a8b8c;
     padding: 20px;
 }
 .col-2 .price{
@@ -56,31 +60,18 @@ button{
     color: #8a8b8c;
     margin-top: 30px;
     margin-right: 10px ;
-    padding: 5px 20px;
-    border: 1px solid #c1bdba;
+    padding: 5px 10px;
+    border: 1px solid #8a8b8c;
 }
 
 @media (max-width: 700px){
-    nav{
-        width: 400px;
-        margin: 50px auto 0;
-        padding: 20px 25px;
-        border-bottom: 2px solid #c1bdba;
-    }
-    .container{
+    .column-container{
         flex-direction: column;
-        padding: 20px 5px;
         text-align: center;
-        width: 400px;
-        max-width: 100%;
-        margin: 0 auto 50px;
     }
     .col-2{
         color: #8a8b8c;
         border-left: none;
         padding: 20px;
-    }
-    button{
-        padding: 5px 40px;
     }
 }
