@@ -31,7 +31,7 @@ nav{
 }
 nav i{
     color: #8a8b8c;
-    margin-right: 10px;
+    margin: 0 10px 0 5px;
 }
 nav p{
     color: #8a8b8c;
@@ -69,9 +69,20 @@ button{
         flex-direction: column;
         text-align: center;
     }
+    .col-1{
+        padding: 10px;
+        margin: 0;
+    }
     .col-2{
         color: #8a8b8c;
         border-left: none;
-        padding: 20px;
+        padding: 10px;
+    }
+    .col-2 .price{
+        font-size: 30px;
+        margin: 10px 0;
+    }
+    button{
+        margin-top: 20px;
     }
 }
