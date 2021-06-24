@@ -42,6 +42,7 @@ img{
 }
 .col-1{
     object-fit: cover;
+    overflow: hidden;
 }
 .col-2{
     color: #8a8b8c;
@@ -72,6 +73,7 @@ button{
     .col-1{
         padding: 10px;
         margin: 0;
+        overflow: hidden;
     }
     .col-2{
         color: #8a8b8c;
